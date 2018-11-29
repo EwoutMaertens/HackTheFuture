@@ -1,0 +1,180 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_team",
+				"type": "string"
+			}
+		],
+		"name": "getPassword",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_answer",
+				"type": "string"
+			},
+			{
+				"name": "_team",
+				"type": "string"
+			}
+		],
+		"name": "unlockPhase1",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_teamName",
+				"type": "string"
+			}
+		],
+		"name": "getTeamPhase",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_answer",
+				"type": "string"
+			},
+			{
+				"name": "_team",
+				"type": "string"
+			}
+		],
+		"name": "unlockPhase3",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_team",
+				"type": "string"
+			}
+		],
+		"name": "unlockPhase4",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_newValue",
+				"type": "uint256"
+			}
+		],
+		"name": "changeCorruptionLevel",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_answer",
+				"type": "bytes32"
+			},
+			{
+				"name": "_team",
+				"type": "string"
+			}
+		],
+		"name": "unlockPhase2",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_newValue",
+				"type": "uint256"
+			}
+		],
+		"name": "changeCorruptionLevelDecrease",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getCorruptionLevel",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

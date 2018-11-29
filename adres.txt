@@ -1,0 +1,8 @@
+Artifact
+0xf90afce8ef56f56719e78878c2db9d27da981c78
+
+Frontend
+0xAD064C83DAF3c7362B895c59977cB962C0d1F772
+
+Endpoint
+https://rinkeby.infura.io/v3/4cad0f8fff194767a30cc70a441b3bf9
